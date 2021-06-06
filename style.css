@@ -2,7 +2,7 @@
 body{
     font-family: "Noto Sans JP", "sans-serif";
     margin: 0;
-    min-width: 1076px ;
+    min-width: 1096px ;
 }
 .color-green{
     color: #00ABAB;
@@ -81,14 +81,14 @@ body{
 }
 
 /* ワークス */
-.box-works {
-    margin: 80px 0 0 ;
+.box-works{
+    margin: 80px 10px;
 }
 
 .works-list {
     list-style: none;
     width: 100%;
-    max-width: 1076px;
+    max-width: 1096px;
     margin: 30px auto;
     padding: 0;
     text-align: left;
@@ -144,4 +144,85 @@ body{
     text-align: center;
     font-size: 15px;
     margin: 50px 0 20px;
+}
+
+
+/* レスポンシブデザイン (タブレット〜スマホサイズ) */
+@media screen and (max-width: 767px){
+
+    /* 全体 */
+    body{
+        min-width: 100%;
+    }
+
+    /* ヘッダー */
+    .block-header{
+        padding: 0 10px 10px;
+        box-shadow: 0 8px 8px -5px rgba(204, 204, 204, 0.3);
+    }
+    
+    .block-header a {
+        font-size: 31px;
+    }
+
+
+    /* メイン */
+    .block-main{
+        margin: 50px 0 ;
+    }
+    
+
+    /* プロフィール */
+    .box-profile{
+        padding: 0 10px;
+    }
+
+    .item-list b{
+        font-size: 18x;
+    }
+
+    .icon-list {
+        max-width: 100%;
+    }
+
+    .icon-list li {
+        margin-right: 25px;
+    }
+    
+
+    /* ワークス */
+
+    .block-main .box-works {
+        margin: 80px 0 0 ;
+        padding: 0 10px;
+    }
+    
+    .works-list {
+        max-width: 100%;
+    }
+    
+    .works-list li {
+        max-width: 100%;
+        float: none;
+        margin-right: 0; 
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .works-list li img {
+        max-width: 500px;
+    }
+    
+    .works-list li h3 {
+        font-size: 20px;
+        margin: 5px 0;
+    }
+    
+    .works-list li span {
+        font-size: 14px;
+    }
+
+    .works-list li .link {
+        justify-content: center;
+    }
 }
