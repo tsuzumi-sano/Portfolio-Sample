@@ -2,10 +2,13 @@
 body{
     font-family: "Noto Sans JP", "sans-serif";
     margin: 0;
-    min-width: 1076px ;
+    min-width: 800px ;
 }
 .color-green{
     color: #00ABAB;
+}
+.sub-title{
+    font-size: 32px;
 }
 
 /* ヘッダー */
@@ -20,4 +23,59 @@ body{
     color: #000;
     text-decoration:none;
     letter-spacing: 1px;
+}
+
+/* メイン */
+.block-main{
+    text-align: center;
+    margin: 100px 0 ;
+}
+
+/* プロフィール */
+.item-list{
+    width: 100%;
+    max-width: 348px;
+    margin: 0 auto;
+}
+
+.item-list img {
+    width: 180px;
+    border-radius: 50%;
+}
+
+.item-list b{
+    display: block;
+    font-size: 24px;
+    font-weight: normal;
+    margin: 20px 0 30px; 
+}
+
+.item-list p {
+    font-size: 15px;
+    line-height: normal;
+    text-align: left;
+}
+
+.icon-list {
+    list-style: none;
+    width: 100%;
+    max-width: 247px;
+    margin: 30px auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-list li {
+    margin-right: 22px;
+}
+
+.icon-list li:last-child{
+    margin-right: 0;
+}
+
+.icon-list img {
+    width: 50px;
+    padding: 0 10px;
 }
