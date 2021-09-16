@@ -2,6 +2,7 @@ Portfolio Sample
 ====
 
 ポートフォリオのサンプルです。
+練習用に作成しました。
 
 ## デモ
 [WEBサイトをみる](https://sano-techis-portfolio.herokuapp.com/)
